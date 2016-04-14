@@ -7,6 +7,7 @@
   <style name="SearchResult" foreground="#000000" background="#7a8c8c"/>
   <style name="SearchScope" foreground="#000000" background="#7a8c8c"/>
   <style name="Parentheses" foreground="#000000" background="#a7bebe"/>
+  <style name="ParenthesesMismatch" foreground="#000000" background="#ff00ff"/>
   <style name="CurrentLine" background="#303737" bold="true"/>
   <style name="CurrentLineNumber" foreground="#e5e4e1"/>
   <style name="Occurrences" foreground="#000000" background="#b4b4b4"/>
@@ -45,10 +46,15 @@
   <style name="RemovedLine" foreground="#ff0000"/>
   <style name="DiffFile" foreground="#a6e22e"/>
   <style name="DiffLocation" foreground="#2572b8"/>
-  <style name="DiffFileLine" background="#ffff00"/>
-  <style name="DiffContextLine" background="#afd7e7"/>
-  <style name="DiffSourceLine" background="#ffdfdf"/>
-  <style name="DiffSourceChar" background="#ffafaf"/>
-  <style name="DiffDestLine" background="#dfffdf"/>
-  <style name="DiffDestChar" background="#afffaf"/>
+  <style name="DiffFileLine" foreground="#fefe00"/>
+  <style name="DiffContextLine" foreground="#fffd00"/>
+  <style name="DiffSourceLine" foreground="#fe3232" background="#3a3131" bold="true"/>
+  <style name="DiffSourceChar" foreground="#fd3232" background="#3a3131" bold="true"/>
+  <style name="DiffDestLine" foreground="#32fe32" background="#313a31" bold="true"/>
+  <style name="DiffDestChar" foreground="#32fd32" background="#313a31" bold="true"/>
+  <style name="LogChangeLine" foreground="#c00000"/>
+  <style name="Warning" underlineColor="#ffbe00" underlineStyle="SingleUnderline"/>
+  <style name="WarningContext" underlineColor="#ffbe00" underlineStyle="DotLine"/>
+  <style name="Error" underlineColor="#ff0000" underlineStyle="SingleUnderline"/>
+  <style name="ErrorContext" underlineColor="#ff0000" underlineStyle="DotLine"/>
 </style-scheme>
